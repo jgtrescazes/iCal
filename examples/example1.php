@@ -33,6 +33,7 @@ $event = new Event();
 $event
     ->setSummary('Christmas Eve')
     ->setDescription('Lorem Ipsum Dolor...')
+
     ->setOrganizer(new Organizer(
         new EmailAddress('john.doe@example.com'),
         'John Doe'
